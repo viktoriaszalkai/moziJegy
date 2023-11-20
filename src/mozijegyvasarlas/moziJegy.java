@@ -49,6 +49,7 @@ public class MoziJegy extends javax.swing.JFrame {
 
         buttonGroup1 = new javax.swing.ButtonGroup();
         buttonGroup2 = new javax.swing.ButtonGroup();
+        buttonGroup3 = new javax.swing.ButtonGroup();
         jPanel1 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
@@ -114,6 +115,7 @@ public class MoziJegy extends javax.swing.JFrame {
             }
         });
 
+        buttonGroup2.add(chbHetfo);
         chbHetfo.setText("Hétfő");
         chbHetfo.addItemListener(new java.awt.event.ItemListener() {
             public void itemStateChanged(java.awt.event.ItemEvent evt) {
@@ -121,6 +123,7 @@ public class MoziJegy extends javax.swing.JFrame {
             }
         });
 
+        buttonGroup2.add(chbKedd);
         chbKedd.setText("Kedd");
         chbKedd.addItemListener(new java.awt.event.ItemListener() {
             public void itemStateChanged(java.awt.event.ItemEvent evt) {
@@ -128,6 +131,7 @@ public class MoziJegy extends javax.swing.JFrame {
             }
         });
 
+        buttonGroup2.add(chbSzerda);
         chbSzerda.setText("Szerda");
         chbSzerda.addItemListener(new java.awt.event.ItemListener() {
             public void itemStateChanged(java.awt.event.ItemEvent evt) {
@@ -135,6 +139,7 @@ public class MoziJegy extends javax.swing.JFrame {
             }
         });
 
+        buttonGroup2.add(chbCsutortok);
         chbCsutortok.setText("Csütörtök");
         chbCsutortok.addItemListener(new java.awt.event.ItemListener() {
             public void itemStateChanged(java.awt.event.ItemEvent evt) {
@@ -142,6 +147,7 @@ public class MoziJegy extends javax.swing.JFrame {
             }
         });
 
+        buttonGroup2.add(chbSzombat);
         chbSzombat.setText("Szombat");
         chbSzombat.addItemListener(new java.awt.event.ItemListener() {
             public void itemStateChanged(java.awt.event.ItemEvent evt) {
@@ -149,6 +155,7 @@ public class MoziJegy extends javax.swing.JFrame {
             }
         });
 
+        buttonGroup2.add(chbPentek);
         chbPentek.setText("Péntek");
         chbPentek.addItemListener(new java.awt.event.ItemListener() {
             public void itemStateChanged(java.awt.event.ItemEvent evt) {
@@ -156,6 +163,7 @@ public class MoziJegy extends javax.swing.JFrame {
             }
         });
 
+        buttonGroup2.add(chbVasarnap);
         chbVasarnap.setText("Vasárnap");
         chbVasarnap.addItemListener(new java.awt.event.ItemListener() {
             public void itemStateChanged(java.awt.event.ItemEvent evt) {
@@ -308,39 +316,51 @@ public class MoziJegy extends javax.swing.JFrame {
         jPanel8.setBackground(new java.awt.Color(137, 179, 137));
         jPanel8.setBorder(javax.swing.BorderFactory.createTitledBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.LOWERED), "Filmek", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Bauhaus 93", 0, 18), new java.awt.Color(255, 255, 255))); // NOI18N
 
+        buttonGroup3.add(chbBarbie);
         chbBarbie.setText("Barbie");
         chbBarbie.setEnabled(false);
 
+        buttonGroup3.add(chbMammaMia);
         chbMammaMia.setText("Mamma mia!");
         chbMammaMia.setEnabled(false);
 
+        buttonGroup3.add(chbAgymanok);
         chbAgymanok.setText("Agymanók");
         chbAgymanok.setEnabled(false);
 
+        buttonGroup3.add(chbShrek);
         chbShrek.setText("Shrek ");
         chbShrek.setEnabled(false);
 
+        buttonGroup3.add(chbApaca);
         chbApaca.setText("Apáca ");
         chbApaca.setEnabled(false);
 
+        buttonGroup3.add(chbDemonok);
         chbDemonok.setText("Démonok között");
         chbDemonok.setEnabled(false);
 
+        buttonGroup3.add(chbHalalos);
         chbHalalos.setText("Halálos iramban ");
         chbHalalos.setEnabled(false);
 
+        buttonGroup3.add(chbOppenheimer);
         chbOppenheimer.setText("Oppenheimer");
         chbOppenheimer.setEnabled(false);
 
+        buttonGroup3.add(chbMenInBlack);
         chbMenInBlack.setText("Men in black");
         chbMenInBlack.setEnabled(false);
 
+        buttonGroup3.add(chbSzellemirtok);
         chbSzellemirtok.setText("Szellemírtók");
         chbSzellemirtok.setEnabled(false);
 
+        buttonGroup3.add(chbCreed);
         chbCreed.setText("Creed III");
         chbCreed.setEnabled(false);
 
+        buttonGroup3.add(chbSzemfenyvesztok);
         chbSzemfenyvesztok.setText("Szemfényvesztők");
         chbSzemfenyvesztok.setEnabled(false);
 
@@ -764,6 +784,7 @@ public class MoziJegy extends javax.swing.JFrame {
     private javax.swing.JButton btnRendeles;
     private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.ButtonGroup buttonGroup2;
+    private javax.swing.ButtonGroup buttonGroup3;
     private javax.swing.JCheckBox chbAgymanok;
     private javax.swing.JCheckBox chbApaca;
     private javax.swing.JCheckBox chbBarbie;
